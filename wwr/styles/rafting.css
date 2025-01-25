@@ -115,28 +115,32 @@ footer .social-links img:hover {
 
 .hero h1 {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
+    top: 5%; /* Posição próxima ao topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, 0); /* Apenas ajuste horizontal */
     font-size: 3rem;
     font-family: var(--heading-font);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
     padding: 0.5rem 1rem;
     border-radius: 10px;
+    color: white;
+    text-align: center;
 }
+
 
 .hero article {
     position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 10%; /* Próximo da base */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajuste horizontal */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo mais escuro */
     color: white;
     padding: 1rem;
     border-radius: 10px;
-    max-width: 600px;
-    text-align: left;
+    max-width: 600px; /* Tamanho máximo para texto */
+    text-align: left; /* Alinhamento do conteúdo */
 }
+
 
 .hero article img {
     float: right;
