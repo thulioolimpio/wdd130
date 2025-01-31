@@ -119,34 +119,36 @@ main p {
 }
 .adventure {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+    gap: 0.3rem;
     padding: 2rem;
-    overflow-x: auto; /* Permite rolagem horizontal se necessário */
-    white-space: nowrap;
+    flex-wrap: nowrap; /* Garante que todas as imagens fiquem na mesma linha */
+    overflow: hidden; /* Remove rolagem lateral */
 }
 
 .adventure figure {
-    flex: 0 0 250px;
+    flex: 1 1 auto; /* Ajusta dinamicamente para caber na tela */
+    max-width: 120px; /* Reduz ainda mais o tamanho das imagens */
     text-align: center;
     background-color: var(--accent1-color);
-    padding: 1rem;
+    padding: 0.3rem;
     border-radius: 5px;
-    display: inline-block;
 }
 
 .adventure img {
     width: 100%;
-    height: 150px; /* Define um tamanho fixo para manter a uniformidade */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    height: 80px; /* Reduzindo altura para melhor ajuste */
+    object-fit: cover;
     border-radius: 5px;
 }
 
 .adventure figcaption {
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
+    font-size: 0.8rem; /* Ajustando o tamanho da legenda para economizar espaço */
     font-weight: bold;
     color: var(--secondary-color);
 }
+
 
 
 footer {
