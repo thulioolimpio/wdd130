@@ -176,3 +176,75 @@ footer .social-links img {
 footer .social-links img:hover {
     transform: scale(1.1);
 }
+.company-info, .team, .contact-form {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.company-info p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.team .employees {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.team figure {
+    text-align: center;
+}
+
+.team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+}
+
+.contact-form fieldset {
+    border: none;
+    text-align: left;
+}
+
+.contact-form button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--primary-color);
+}
+#oi{
+    color: #264969;
+}
+iframe{
+
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
