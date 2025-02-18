@@ -248,3 +248,86 @@ iframe{
     height: 300px;
     border-radius: 10px;
 }
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 2.5rem;
+    font-family: var(--heading-font);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--accent2-color);
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+}
+
+.newsletter button {
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+#mudança{
+    color: #264969;
+}
+.trip-table{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: #264969;
+
+    
+}
